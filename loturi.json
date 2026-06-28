@@ -1,0 +1,54 @@
+{
+  "Franța": [
+    {"nume": "Kylian Mbappé", "valoare": 180, "club": "Real Madrid"},
+    {"nume": "Aurélien Tchouaméni", "valoare": 90, "club": "Real Madrid"},
+    {"nume": "Jules Koundé", "valoare": 60, "club": "Barcelona"},
+    {"nume": "Mike Maignan", "valoare": 45, "club": "AC Milan"},
+    {"nume": "Theo Hernandez", "valoare": 60, "club": "AC Milan"},
+    {"nume": "Ibrahima Konate", "valoare": 45, "club": "Liverpool"},
+    {"nume": "William Saliba", "valoare": 75, "club": "Arsenal"},
+    {"nume": "Eduardo Camavinga", "valoare": 90, "club": "Real Madrid"},
+    {"nume": "Antoine Griezmann", "valoare": 25, "club": "Atletico Madrid"},
+    {"nume": "Ousmane Dembélé", "valoare": 60, "club": "PSG"},
+    {"nume": "Marcus Thuram", "valoare": 65, "club": "Inter Milan"}
+  ],
+  "Brazilia": [
+    {"nume": "Vinícius Júnior", "valoare": 170, "club": "Real Madrid"},
+    {"nume": "Rodrygo", "valoare": 110, "club": "Real Madrid"},
+    {"nume": "Alisson", "valoare": 30, "club": "Liverpool"},
+    {"nume": "Marquinhos", "valoare": 50, "club": "PSG"},
+    {"nume": "Gabriel Magalhães", "valoare": 65, "club": "Arsenal"},
+    {"nume": "Bruno Guimarães", "valoare": 80, "club": "Newcastle"},
+    {"nume": "Lucas Paquetá", "valoare": 60, "club": "West Ham"},
+    {"nume": "Endrick", "valoare": 60, "club": "Real Madrid"},
+    {"nume": "Raphinha", "valoare": 50, "club": "Barcelona"},
+    {"nume": "Gabriel Martinelli", "valoare": 60, "club": "Arsenal"},
+    {"nume": "Douglas Luiz", "valoare": 60, "club": "Juventus"}
+  ],
+  "Africa de Sud": [
+    {"nume": "Ronwen Williams", "valoare": 2, "club": "Mamelodi Sundowns"},
+    {"nume": "Khuliso Mudau", "valoare": 1.5, "club": "Mamelodi Sundowns"},
+    {"nume": "Grant Kekana", "valoare": 1.2, "club": "Mamelodi Sundowns"},
+    {"nume": "Mothobi Mvala", "valoare": 1.2, "club": "Mamelodi Sundowns"},
+    {"nume": "Aubrey Modiba", "valoare": 1.3, "club": "Mamelodi Sundowns"},
+    {"nume": "Teboho Mokoena", "valoare": 2.5, "club": "Mamelodi Sundowns"},
+    {"nume": "Sphephelo Sithole", "valoare": 1.5, "club": "Tondela"},
+    {"nume": "Themba Zwane", "valoare": 1.2, "club": "Mamelodi Sundowns"},
+    {"nume": "Percy Tau", "valoare": 2.5, "club": "Al Ahly"},
+    {"nume": "Oswin Appollis", "valoare": 1.2, "club": "Polokwane City"},
+    {"nume": "Evidence Makgopa", "valoare": 1.0, "club": "Orlando Pirates"}
+  ],
+  "Canada": [
+    {"nume": "Maxime Crépeau", "valoare": 3, "club": "Portland Timbers"},
+    {"nume": "Alistair Johnston", "valoare": 12, "club": "Celtic"},
+    {"nume": "Moïse Bombito", "valoare": 8, "club": "Nice"},
+    {"nume": "Derek Cornelius", "valoare": 4, "club": "Malmö FF"},
+    {"nume": "Alphonso Davies", "valoare": 60, "club": "Bayern Munchen"},
+    {"nume": "Tajon Buchanan", "valoare": 18, "club": "Inter Milan"},
+    {"nume": "Ismaël Koné", "valoare": 15, "club": "Watford"},
+    {"nume": "Stephen Eustáquio", "valoare": 15, "club": "Porto"},
+    {"nume": "Liam Millar", "valoare": 6, "club": "Basel"},
+    {"nume": "Jonathan David", "valoare": 50, "club": "Lille"},
+    {"nume": "Cyle Larin", "valoare": 6, "club": "Mallorca"}
+  ]
+}
