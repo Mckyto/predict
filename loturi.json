@@ -1,17 +1,4 @@
 {
-  "Franța": [
-    {"nume": "Kylian Mbappé", "valoare": 180, "club": "Real Madrid"},
-    {"nume": "Aurélien Tchouaméni", "valoare": 90, "club": "Real Madrid"},
-    {"nume": "Jules Koundé", "valoare": 60, "club": "Barcelona"},
-    {"nume": "Mike Maignan", "valoare": 45, "club": "AC Milan"},
-    {"nume": "Theo Hernandez", "valoare": 60, "club": "AC Milan"},
-    {"nume": "Ibrahima Konate", "valoare": 45, "club": "Liverpool"},
-    {"nume": "William Saliba", "valoare": 75, "club": "Arsenal"},
-    {"nume": "Eduardo Camavinga", "valoare": 90, "club": "Real Madrid"},
-    {"nume": "Antoine Griezmann", "valoare": 25, "club": "Atletico Madrid"},
-    {"nume": "Ousmane Dembélé", "valoare": 60, "club": "PSG"},
-    {"nume": "Marcus Thuram", "valoare": 65, "club": "Inter Milan"}
-  ],
   "Brazilia": [
     {"nume": "Vinícius Júnior", "valoare": 170, "club": "Real Madrid"},
     {"nume": "Rodrygo", "valoare": 110, "club": "Real Madrid"},
@@ -51,4 +38,118 @@
     {"nume": "Jonathan David", "valoare": 50, "club": "Lille"},
     {"nume": "Cyle Larin", "valoare": 6, "club": "Mallorca"}
   ]
-}
+},"Japonia": [
+    {"nume": "Zion Suzuki", "valoare": 12, "club": "Parma"},
+    {"nume": "Yukinari Sugawara", "valoare": 15, "club": "AZ Alkmaar"},
+    {"nume": "Ko Itakura", "valoare": 15, "club": "Borussia M'gladbach"},
+    {"nume": "Takehiro Tomiyasu", "valoare": 35, "club": "Arsenal"},
+    {"nume": "Hiroki Ito", "valoare": 30, "club": "Bayern Munchen"},
+    {"nume": "Wataru Endo", "valoare": 13, "club": "Liverpool"},
+    {"nume": "Hidemasa Morita", "valoare": 15, "club": "Sporting CP"},
+    {"nume": "Takefusa Kubo", "valoare": 50, "club": "Real Sociedad"},
+    {"nume": "Daichi Kamada", "valoare": 20, "club": "Crystal Palace"},
+    {"nume": "Kaoru Mitoma", "valoare": 45, "club": "Brighton"},
+    {"nume": "Ayase Ueda", "valoare": 10, "club": "Feyenoord"}
+  ],"Germania": [
+    {"nume": "Manuel Neuer", "valoare": 5, "club": "Bayern Munchen"},
+    {"nume": "Joshua Kimmich", "valoare": 50, "club": "Bayern Munchen"},
+    {"nume": "Antonio Rüdiger", "valoare": 25, "club": "Real Madrid"},
+    {"nume": "Jonathan Tah", "valoare": 30, "club": "Bayer Leverkusen"},
+    {"nume": "David Raum", "valoare": 20, "club": "RB Leipzig"},
+    {"nume": "Robert Andrich", "valoare": 15, "club": "Bayer Leverkusen"},
+    {"nume": "Toni Kroos", "valoare": 15, "club": "Real Madrid"},
+    {"nume": "Jamal Musiala", "valoare": 130, "club": "Bayern Munchen"},
+    {"nume": "Ilkay Gündogan", "valoare": 15, "club": "Barcelona"},
+    {"nume": "Florian Wirtz", "valoare": 130, "club": "Bayer Leverkusen"},
+    {"nume": "Kai Havertz", "valoare": 70, "club": "Arsenal"}
+  ],
+  "Paraguay": [
+    {"nume": "Carlos Coronel", "valoare": 4, "club": "NY Red Bulls"},
+    {"nume": "Gustavo Gómez", "valoare": 3, "club": "Palmeiras"},
+    {"nume": "Fabián Balbuena", "valoare": 2, "club": "Dinamo Moscova"},
+    {"nume": "Omar Alderete", "valoare": 6, "club": "Getafe"},
+    {"nume": "Matías Espinoza", "valoare": 2, "club": "Libertad"},
+    {"nume": "Mathías Villasanti", "valoare": 10, "club": "Gremio"},
+    {"nume": "Andrés Cubas", "valoare": 4, "club": "Vancouver Whitecaps"},
+    {"nume": "Miguel Almirón", "valoare": 20, "club": "Newcastle"},
+    {"nume": "Julio Enciso", "valoare": 22, "club": "Brighton"},
+    {"nume": "Ramón Sosa", "valoare": 8, "club": "Talleres"},
+    {"nume": "Antonio Sanabria", "valoare": 10, "club": "Torino"}
+  ],"Olanda": [
+    {"nume": "Bart Verbruggen", "valoare": 20, "club": "Brighton"},
+    {"nume": "Denzel Dumfries", "valoare": 25, "club": "Inter Milan"},
+    {"nume": "Stefan de Vrij", "valoare": 12, "club": "Inter Milan"},
+    {"nume": "Virgil van Dijk", "valoare": 30, "club": "Liverpool"},
+    {"nume": "Nathan Aké", "valoare": 40, "club": "Manchester City"},
+    {"nume": "Jerdy Schouten", "valoare": 25, "club": "PSV"},
+    {"nume": "Joey Veerman", "valoare": 30, "club": "PSV"},
+    {"nume": "Tijjani Reijnders", "valoare": 30, "club": "AC Milan"},
+    {"nume": "Xavi Simons", "valoare": 80, "club": "RB Leipzig"},
+    {"nume": "Cody Gakpo", "valoare": 50, "club": "Liverpool"},
+    {"nume": "Memphis Depay", "valoare": 10, "club": "Corinthians"}
+  ],
+  "Maroc": [
+    {"nume": "Yassine Bounou", "valoare": 10, "club": "Al-Hilal"},
+    {"nume": "Achraf Hakimi", "valoare": 60, "club": "PSG"},
+    {"nume": "Nayef Aguerd", "valoare": 35, "club": "Real Sociedad"},
+    {"nume": "Romain Saïss", "valoare": 2, "club": "Al-Shabab"},
+    {"nume": "Noussair Mazraoui", "valoare": 30, "club": "Manchester United"},
+    {"nume": "Sofyan Amrabat", "valoare": 22, "club": "Fenerbahce"},
+    {"nume": "Azzedine Ounahi", "valoare": 12, "club": "Panathinaikos"},
+    {"nume": "Brahim Díaz", "valoare": 40, "club": "Real Madrid"},
+    {"nume": "Hakim Ziyech", "valoare": 9, "club": "Galatasaray"},
+    {"nume": "Youssef En-Nesyri", "valoare": 20, "club": "Fenerbahce"},
+    {"nume": "Abde Ezzalzouli", "valoare": 15, "club": "Real Betis"}
+  ],
+  "Coasta de Fildeș": [
+    {"nume": "Yahia Fofana", "valoare": 10, "club": "Angers"},
+    {"nume": "Wilfried Singo", "valoare": 25, "club": "Monaco"},
+    {"nume": "Odilon Kossounou", "valoare": 35, "club": "Atalanta"},
+    {"nume": "Evan Ndicka", "valoare": 25, "club": "Roma"},
+    {"nume": "Ghislain Konan", "valoare": 5, "club": "Al-Fayha"},
+    {"nume": "Franck Kessié", "valoare": 18, "club": "Al-Ahli"},
+    {"nume": "Seko Fofana", "valoare": 20, "club": "Al-Ettifaq"},
+    {"nume": "Jean Seri", "valoare": 6, "club": "Al-Khaleej"},
+    {"nume": "Simon Adingra", "valoare": 30, "club": "Brighton"},
+    {"nume": "Sébastien Haller", "valoare": 12, "club": "Leganes"},
+    {"nume": "Oumar Diakité", "valoare": 18, "club": "Reims"}
+  ],
+  "Norvegia": [
+    {"nume": "Ørjan Nyland", "valoare": 3, "club": "Sevilla"},
+    {"nume": "Julian Ryerson", "valoare": 20, "club": "Borussia Dortmund"},
+    {"nume": "Leo Østigård", "valoare": 10, "club": "Rennes"},
+    {"nume": "Andreas Hanche-Olsen", "valoare": 8, "club": "Mainz"},
+    {"nume": "David Møller Wolfe", "valoare": 6, "club": "AZ Alkmaar"},
+    {"nume": "Sander Berge", "valoare": 20, "club": "Fulham"},
+    {"nume": "Patrick Berg", "valoare": 7, "club": "Bodo/Glimt"},
+    {"nume": "Martin Ødegaard", "valoare": 110, "club": "Arsenal"},
+    {"nume": "Oscar Bobb", "valoare": 25, "club": "Manchester City"},
+    {"nume": "Erling Haaland", "valoare": 200, "club": "Manchester City"},
+    {"nume": "Alexander Sørloth", "valoare": 35, "club": "Atletico Madrid"}
+  ],
+  "Franța": [
+    {"nume": "Kylian Mbappé", "valoare": 180, "club": "Real Madrid"},
+    {"nume": "Aurélien Tchouaméni", "valoare": 90, "club": "Real Madrid"},
+    {"nume": "Jules Koundé", "valoare": 60, "club": "Barcelona"},
+    {"nume": "Mike Maignan", "valoare": 45, "club": "AC Milan"},
+    {"nume": "Theo Hernandez", "valoare": 60, "club": "AC Milan"},
+    {"nume": "Ibrahima Konate", "valoare": 45, "club": "Liverpool"},
+    {"nume": "William Saliba", "valoare": 75, "club": "Arsenal"},
+    {"nume": "Eduardo Camavinga", "valoare": 90, "club": "Real Madrid"},
+    {"nume": "Antoine Griezmann", "valoare": 25, "club": "Atletico Madrid"},
+    {"nume": "Ousmane Dembélé", "valoare": 60, "club": "PSG"},
+    {"nume": "Marcus Thuram", "valoare": 65, "club": "Inter Milan"}
+  ],
+  "Suedia": [
+    {"nume": "Robin Olsen", "valoare": 2, "club": "Aston Villa"},
+    {"nume": "Emil Krafth", "valoare": 3, "club": "Newcastle"},
+    {"nume": "Victor Lindelöf", "valoare": 15, "club": "Manchester United"},
+    {"nume": "Isak Hien", "valoare": 25, "club": "Atalanta"},
+    {"nume": "Ludwig Augustinsson", "valoare": 3, "club": "Anderlecht"},
+    {"nume": "Dejan Kulusevski", "valoare": 55, "club": "Tottenham"},
+    {"nume": "Hugo Larsson", "valoare": 28, "club": "Frankfurt"},
+    {"nume": "Jens Cajuste", "valoare": 10, "club": "Ipswich"},
+    {"nume": "Anthony Elanga", "valoare": 20, "club": "Nottingham Forest"},
+    {"nume": "Alexander Isak", "valoare": 75, "club": "Newcastle"},
+    {"nume": "Viktor Gyökeres", "valoare": 65, "club": "Sporting CP"}
+  ]
