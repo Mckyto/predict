@@ -31,14 +31,16 @@ if st.button("Simulează Meciul"):
         v1 = sum([j['valoare'] for j in t1])
         v2 = sum([j['valoare'] for j in t2])
         
-        # Scor realist (folosim sqrt pentru a echilibra diferențele mari de valoare)
-        # Plafonăm scorul la maxim 5 goluri
-        s1 = min(5, int(math.sqrt(v1) / 2 + random.randint(0, 2)))
-        s2 = min(5, int(math.sqrt(v2) / 2 + random.randint(0, 2)))
+        # Scor realist cu divizor mai mare (4.0) pentru a evita scorurile maxime
+        # Folosim max(0, ...) ca să nu avem goluri negative
+        # Variația este dată de random.randint(-1, 3)
+        s1 = min(5, max(0, int(math.sqrt(v1) / 4.0 + random.randint(-1, 3))))
+        s2 = min(5, max(0, int(math.sqrt(v2) / 4.0 + random.randint(-1, 3))))
         
-        # O mică șansă de a evita 0-0 dacă ambele sunt slabe
-        if s1 == 0 and s2 == 0 and random.random() > 0.6:
-            s1 = 1
+        # O mică șansă de a forța un gol dacă scorul este 0-0
+        if s1 == 0 and s2 == 0 and random.random() > 0.5:
+            if random.random() > 0.5: s1 = 1
+            else: s2 = 1
         
         st.subheader(f"Rezultat Final: {e1} {s1} - {s2} {e2}")
         st.write(f"📊 Valori loturi: {e1} ({v1} mil. €) vs {e2} ({v2} mil. €)")
@@ -47,13 +49,14 @@ if st.button("Simulează Meciul"):
         st.write("---")
         st.subheader("⚽ Marcatori:")
         
-        for _ in range(s1):
-            marcator = random.choice(t1)
-            st.write(f"{e1}: **{marcator['nume']}** ({marcator['club']})")
-            
-        for _ in range(s2):
-            marcator = random.choice(t2)
-            st.write(f"{e2}: **{marcator['nume']}** ({marcator['club']})")
+        # Colectăm marcatorii pentru a-i afișa corect
+        marcatori_e1 = [random.choice(t1)['nume'] for _ in range(s1)]
+        marcatori_e2 = [random.choice(t2)['nume'] for _ in range(s2)]
+        
+        for nume in marcatori_e1:
+            st.write(f"{e1}: **{nume}**")
+        for nume in marcatori_e2:
+            st.write(f"{e2}: **{nume}**")
 
         if s1 == s2:
             st.info("Rezultat egal! Se merge la lovituri de departajare...")
