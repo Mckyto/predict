@@ -11,7 +11,7 @@ except FileNotFoundError:
     st.error("Fișierul 'loturi.json' lipsește!")
     st.stop()
 
-st.title("⚽ Predictor Mondial - Mod Realist")
+st.title("⚽ Predictor Mondial")
 
 col1, col2 = st.columns(2)
 with col1:
@@ -23,32 +23,34 @@ with col2:
 
 if st.button("Simulează Meciul"):
     if len(t1) < 11 or len(t2) < 11:
-        st.warning("Selectează 11 jucători!")
+        st.warning("Te rog să selectezi 11 jucători pentru fiecare echipă!")
     else:
-        # Calculăm forța: folosim logaritm pentru a nu avea scoruri astronomice
-        # Valoarea echipei contează, dar forma de moment (random) poate schimba meciul
+        # Calcul valori
         v1 = sum([j['valoare'] for j in t1])
         v2 = sum([j['valoare'] for j in t2])
         
-        # Algoritm mai echilibrat:
-        # 1. Diferența de valoare dă un mic avantaj (nu totul)
-        # 2. 'random.gauss' simulează distribuția normală (scoruri probabile: 0, 1, 2)
+        # Logica pentru scor
         forta1 = math.log1p(v1) * 0.8 + random.gauss(0, 0.5)
         forta2 = math.log1p(v2) * 0.8 + random.gauss(0, 0.5)
         
-        # Calculăm golurile
-        s1 = max(0, int(forta1 + random.randint(-1, 1)))
-        s2 = max(0, int(forta2 + random.randint(-1, 1)))
+        s1 = min(max(0, int(forta1 + random.randint(-1, 1))), 4)
+        s2 = min(max(0, int(forta2 + random.randint(-1, 1))), 4)
         
-        # Limităm scorul pentru a evita scorurile de hochei
-        s1 = min(s1, 4)
-        s2 = min(s2, 4)
-        
+        # Afișare rezultat și valori loturi
         st.subheader(f"Rezultat Final: {e1} {s1} - {s2} {e2}")
+        st.info(f"Valoare totală loturi: {e1} ({v1} mil. €) vs {e2} ({v2} mil. €)")
         
-        # Marcatori (opțional)
+        # Marcatori cu minutul golului
         if s1 > 0 or s2 > 0:
             st.write("---")
             st.subheader("⚽ Marcatori:")
-            for _ in range(s1): st.write(f"{e1}: {random.choice(t1)['nume']}")
-            for _ in range(s2): st.write(f"{e2}: {random.choice(t2)['nume']}")
+            
+            # Generăm minute aleatorii pentru goluri
+            minute_goluri = sorted([random.randint(1, 90) for _ in range(s1 + s2)])
+            
+            for _ in range(s1):
+                minut = random.randint(1, 90)
+                st.write(f"min. {minut}' - {e1}: **{random.choice(t1)['nume']}**")
+            for _ in range(s2):
+                minut = random.randint(1, 90)
+                st.write(f"min. {minut}' - {e2}: **{random.choice(t2)['nume']}**")
