@@ -38,12 +38,24 @@ data = incarca_date()
 st.title("⚽ Predictor Fotbal - Mondial 2026")
 
 col1, col2 = st.columns(2)
+
 with col1:
-    echipa1 = st.selectbox("Echipa 1", list(data.keys()))
-    selectie1 = st.multiselect(f"Selectează 11 titulari pentru {echipa1}", data[echipa1], format_func=lambda x: x['nume'])
+    echipa1 = st.selectbox("Echipa 1", list(data.keys()), key="select_echipa1")
+    selectie1 = st.multiselect(
+        f"Selectează 11 titulari pentru {echipa1}", 
+        data[echipa1], 
+        format_func=lambda x: x['nume'],
+        key="selectie1_jucatori"
+    )
+
 with col2:
-    echipa2 = st.selectbox("Echipa 2", list(data.keys()))
-    selectie2 = st.multiselect(f"Selectează 11 titulari pentru {echipa2}", data[echipa2], format_func=lambda x: x['nume'])
+    echipa2 = st.selectbox("Echipa 2", list(data.keys()), key="select_echipa2")
+    selectie2 = st.multiselect(
+        f"Selectează 11 titulari pentru {echipa2}", 
+        data[echipa2], 
+        format_func=lambda x: x['nume'],
+        key="selectie2_jucatori"
+    )
 
 if st.button("Simulează Meciul"):
     if len(selectie1) != 11 or len(selectie2) != 11:
